@@ -22,7 +22,7 @@ class Tupla {
 	 * columna:0..7, fila:0..7
 	 */
 	public Tupla getTupla(String m) {
-		char f = m.charAt(0); // figura: C = cavall, A: Alfil, P: peó ....
+		//char f = m.charAt(0); // figura: C = cavall, A: Alfil, P: peó ....
 		Tupla t = new Tupla();
 		
 		t.c = ((int) m.substring(1, 1).charAt(0)) - 97; 		// ASCII(a) = 97
