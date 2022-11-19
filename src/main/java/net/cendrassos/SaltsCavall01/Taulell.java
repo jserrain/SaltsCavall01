@@ -43,6 +43,26 @@ public class Taulell {
 	}
 	
 	/*
+	 * Donada una posició en clau escats Cf3 (C:cavall a posició f3) 
+	 * torna una tupla (x,y) 
+	 *  Domini x:a..h; y:1..8
+	 */
+	/**
+	 * @param m
+	 * @return
+	 */
+//	int[]mov2tupla(String m){
+//		char f = 'C';
+//		int[][] t = new int [1][1];
+//		
+//		f = m.charAt(0); // figura
+//		t[0] =  (int) m.substring(1, 1).charAt(0);
+//		y =  (int) m.substring(1, 1).charAt(0);
+//		
+//		return (new int[1][1] = {1,2});
+//	}
+	
+	/*
 	 * Donada una posició (col,fil) torna una matriu amb les posicions a les que es pot 
 	 * moure el cavall
 	 */
@@ -64,7 +84,5 @@ public class Taulell {
 		
 		return s;
 	}
-	
-	
 
 }
